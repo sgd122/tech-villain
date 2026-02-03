@@ -111,7 +111,7 @@ export function OnboardingForm() {
           {step === 'persona' && '상대 선택'}
         </CardTitle>
         <CardDescription>
-          {step === 'nickname' && '면접관에게 불릴 이름을 입력하세요'}
+          {step === 'nickname' && '면접에서 사용할 닉네임을 입력하세요'}
           {step === 'stack' &&
             '당신이 방어할 기술 스택을 선택하세요 (최대 3개)'}
           {step === 'context' &&
