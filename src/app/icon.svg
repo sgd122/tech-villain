@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Rounded Square Background (Optional, often standard for app icons) -->
+  <rect width="32" height="32" rx="8" fill="#1e1b4b" />
+  
+  <!-- Simplified Villain 'V' -->
+  <path d="M7 8 L16 26 L25 8 L21 8 L16 18 L11 8 Z" fill="#7c3aed" />
+  
+  <!-- The 'Eye' Dot (Red Point) - Essential brand mark -->
+  <circle cx="16" cy="14" r="2" fill="#ef4444" />
+</svg>
