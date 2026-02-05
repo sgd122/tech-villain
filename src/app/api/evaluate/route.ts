@@ -3,6 +3,8 @@ import { createAIAdapter } from '@/shared/api/ai';
 import { getEvaluatorPrompt, parseEvaluationResponse } from '@/shared/api/ai/prompts/evaluator';
 import type { ChatMessage } from '@/shared/api/ai/types';
 
+export const runtime = 'nodejs';
+
 interface EvaluateRequestBody {
   sessionId: string;
   messages: ChatMessage[];
